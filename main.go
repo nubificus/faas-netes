@@ -142,6 +142,7 @@ func main() {
 		faasClient:             faasClient,
 	}
 
+	log.Println("Hello World")
 	if operator {
 		log.Println("Starting operator")
 		runOperator(setup, config)

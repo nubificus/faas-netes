@@ -17,7 +17,7 @@ spec:
     hostNetwork: false
     hostPID: false
     readOnlyRootFilesystem: false
-    allowPrivilegeEscalation: false
+    allowPrivilegeEscalation: true
     allowedCapabilities:
         - NET_ADMIN
         - NET_RAW

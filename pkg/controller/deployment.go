@@ -76,7 +76,7 @@ func newDeployment(
 
 	terminationGracePeriodSeconds := int64(terminationGracePeriod.Seconds())
 
-	allowPrivilegeEscalation := false
+	allowPrivilegeEscalation := true
 
 	deploymentSpec := &appsv1.Deployment{
 		ObjectMeta: metav1.ObjectMeta{
